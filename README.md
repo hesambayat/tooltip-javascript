@@ -67,4 +67,4 @@ $ npm run build
 ## License MIT
 Copyright (c) 2017 Hesam Bayat http://pixudio.com
 
-[1]: https://hesambayat.github.io/tooltip-javascript "See more"
+[1]: https://hesambayat.github.io/tooltip-javascript/ "See more"
