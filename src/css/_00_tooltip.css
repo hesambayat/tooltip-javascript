@@ -1,0 +1,28 @@
+[data-tooltip] {
+  user-select: none;
+}
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 100%;
+  border-radius: 0.15em;
+  background-color: rgba(97, 97, 97, 0.9);
+  color: #FFF;
+  pointer-events: none;
+  backface-visibility: hidden;
+}
+
+.tooltip-copy {
+  display: block;
+  font-size: 0.75em;
+  line-height: inherit;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
