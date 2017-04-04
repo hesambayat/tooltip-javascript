@@ -13,7 +13,8 @@
     "url": "https://github.com/hesambayat/tooltip-javascript/issues"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "start": "node docs/server"
   },
   "homepage": "https://github.com/hesambayat/tooltip-javascript#readme",
   "browserslist": [
