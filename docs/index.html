@@ -6,7 +6,7 @@
     <title>Tooltip - Javascript</title>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lora:400i|Roboto+Mono:400,500" rel="stylesheet">
-    <link href="https://cdn.rawgit.com/hesambayat/tooltip-javascript/1ec13bc4/dist/tooltip.css" rel="stylesheet">
+    <link href="lib/tooltip.css" rel="stylesheet">
     <style>
       html {
         font-size: 100%;
@@ -1078,7 +1078,7 @@ var tooltips = new tooltip( elements, {
      * classie.toggle( elem, 'my-class' )
      */!function(s){"use strict";function e(s){return new RegExp("(^|\\s+)"+s+"(\\s+|$)")}function n(s,e){var n=t(s,e)?c:a;n(s,e)}var t,a,c;"classList"in document.documentElement?(t=function(s,e){return s.classList.contains(e)},a=function(s,e){s.classList.add(e)},c=function(s,e){s.classList.remove(e)}):(t=function(s,n){return e(n).test(s.className)},a=function(s,e){t(s,e)||(s.className=s.className+" "+e)},c=function(s,n){s.className=s.className.replace(e(n)," ")});var o={hasClass:t,addClass:a,removeClass:c,toggleClass:n,has:t,add:a,remove:c,toggle:n};"function"==typeof define&&define.amd?define(o):"object"==typeof exports?module.exports=o:s.classie=o}(window);
     </script>
-    <script src="https://cdn.rawgit.com/hesambayat/tooltip-javascript/1ec13bc4/dist/tooltip.min.js"></script>
+    <script src="lib/tooltip.min.js"></script>
     <script>
       (function(){
 
@@ -1227,7 +1227,7 @@ var tooltips = new tooltip( elements, {
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      
+
       ga('create', 'UA-64346230-2', 'auto');
       ga('send', 'pageview');
     </script>
